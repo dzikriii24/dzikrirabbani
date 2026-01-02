@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-     "predeploy": "npm run build",
-    "postinstall": "chmod +x node_modules/.bin/vite"
+     "predeploy": "npm run build"
   },
   "dependencies": {
     "@motionone/utils": "^10.18.0",
